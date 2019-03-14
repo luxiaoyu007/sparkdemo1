@@ -1,5 +1,5 @@
 import org.apache.spark.SparkContext
-
+//test
 object RddCreate1 {
   def main(args: Array[String]): Unit = {
     var sc = new SparkContext("local","wordcount")
@@ -14,7 +14,6 @@ object RddCreate1 {
     val hash_a = "Aa".hashCode()
     val hash_b = "BB".hashCode()
     println(hash_a+" , "+hash_b)
-
     println(hash_a+"  ---  "+hash_b)
   }
 }
