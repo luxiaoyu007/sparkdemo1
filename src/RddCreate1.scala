@@ -14,5 +14,7 @@ object RddCreate1 {
     val hash_a = "Aa".hashCode()
     val hash_b = "BB".hashCode()
     println(hash_a+" , "+hash_b)
+
+    println(hash_a+"  ---  "+hash_b)
   }
 }
